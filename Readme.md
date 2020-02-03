@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Максим Черкасов](https://up.htmlacademy.ru/htmlcss/27/user/1221807).
-* Наставник: Натали Белоева.(https://htmlacademy.ru/profile/id1123699)
+* Наставник: [Натали Белоева](https://htmlacademy.ru/profile/id1123699).
 
 ---
 
