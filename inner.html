@@ -39,10 +39,21 @@
           <input id="appartments" type="checkbox" name="type_of_housing" value="appartments" checked> 
         </p>
           <label>   
-          <span>Стоимость в сутки(Р):</span>
-          от 0<input type="range" min="0" max="3000" step="1">до 3000
-          </label>  
-          <p><input type="submit" name="present" value="Показать"></p>
+          <div class="filter-range">
+      <div class="filter-range-title">Стоимость в сутки (р):</div>
+      <div class="price-controls">
+        <label class="min-price">от <input type="number" name="min-price" value="0"></label>
+        <label class="max-price">до <input type="number" name="max-price" value="3000"></label>
+      </div>
+      <div class="range-controls">
+        <div class="scale">
+          <div class="bar"></div>
+        </div>
+        <div class="range-toggle range-toggle-min"></div>
+        <div class="range-toggle range-toggle-max"></div>
+      </div>
+      <button class="btn-transparent" type="submit">Показать</button>
+    </div>
       </form>
         <h2 class="visually-hidden">Фильтры поиска</h2>
       <section>
@@ -52,8 +63,8 @@
          <a href="#">по цене</a>
          <a href="#">по типу</a>
          <a href="#">по рейтингу</a>
-         <a href="#">вверх</a>
-         <a href="#">вниз</a>
+         <a href="#" class="visually-hidden">вверх</a>
+         <a href="#" class="visually-hidden">вниз</a>
         </div>
         <p>найдено:</p>
       </section>
@@ -68,10 +79,10 @@
             <a href="#">Подробнее</a>
             <a href="#">Забронировать</a>
             <div>
-              <span>звезда</span>
-              <span>звезда</span>
-              <span>звезда</span>
-              <span>звезда</span>
+              <span class="visually-hidden">звезда</span>
+              <span class="visually-hidden">звезда</span>
+              <span class="visually-hidden">звезда</span>
+              <span class="visually-hidden">звезда</span>
             </div> 
             <span>Рейтинг: 8,5</span>
           </li>
@@ -83,9 +94,9 @@
             <a href="#">Подробнее</a>
             <a href="#">Забронировать</a>
             <div>
-              <span>звезда</span>
-              <span>звезда</span>
-              <span>звезда</span>
+              <span class="visually-hidden">звезда</span>
+              <span class="visually-hidden">звезда</span>
+              <span class="visually-hidden">звезда</span>
             </div> 
             <span>Рейтинг: 8,9</span>
           </li>
@@ -97,8 +108,8 @@
             <a href="#">Подробнее</a>
             <a href="#">Забронировать</a>
             <div>
-              <span>звезда</span>
-              <span>звезда</span>
+              <span class="visually-hidden">звезда</span>
+              <span class="visually-hidden">звезда</span>
             </div> 
             <span>Рейтинг: 9.2</span>
           </li>
@@ -116,7 +127,7 @@
             </ul>
            </div>
            <p>website by
-            <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="#" width="120" height="40" alt="ссылка на интенсив Htmlacademy"></a>
+            <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo_name.png" width="120" height="40" alt="ссылка на интенсив Htmlacademy"></a>
            </p>
     </footer>
   </body>
